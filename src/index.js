@@ -24,7 +24,7 @@ function addTaskToDOM(task) {
 
   
   let deleteBtn = document.createElement("button");
-  deleteBtn.textContent = "x";
+  deleteBtn.textContent = "X";
   deleteBtn.style.marginLeft = "10px";
 
   deleteBtn.addEventListener("click", () => {
